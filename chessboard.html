@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            height: 100vh;
+            width: 100%;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        /* .main-container {
+            height: 90vh;
+            border: 1px solid red;
+            justify-content: center;
+            align-items: center;
+        } */
+
+        .row1 {
+            display: flex;
+        }
+
+        .box {
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box:nth-child(even) {
+            background-color: gray;
+        }
+
+        .row2 {
+            display: flex;
+        }
+
+        .box1 {
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box1:nth-child(odd) {
+            background-color: gray;
+        }
+
+        .row3 {
+            display: flex;
+        }
+
+        .box2 {
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            display: flex;
+        }
+
+        .box2:nth-child(even) {
+            background-color: gray;
+        }
+
+        .row4 {
+            display: flex;
+        }
+
+        .box3 {
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            display: flex;
+        }
+
+        .box3:nth-child(odd) {
+            background-color: gray;
+        }
+
+        .row5 {
+            display: flex;
+        }
+
+        .box4 {
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            display: flex;
+        }
+
+        .box4:nth-child(even) {
+            background-color: gray;
+        }
+
+        .row6 {
+            display: flex;
+        }
+
+        .box5 {
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            display: flex;
+        }
+
+        .box5:nth-child(odd) {
+            background-color: gray;
+        }
+
+        .row7 {
+            display: flex;
+        }
+
+        .box6 {
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box6:nth-child(even) {
+            background-color: gray;
+        }
+
+        .row8 {
+            display: flex;
+        }
+
+        .box7 {
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box7:nth-child(odd) {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="row1">
+            <div class="box" id="box1"><i class="fa-solid fa-chess-rook fa-2x"></i></div>
+            <div class="box" id="box2"><i class="fa-solid fa-chess-knight fa-2x"></i></div>
+            <div class="box" id="box3"><i class="fa-solid fa-chess-bishop fa-2x"></i></div>
+            <div class="box" id="box4"><i class="fa-solid fa-chess-king fa-2x"></i></div>
+            <div class="box" id="box5"><i class="fa-solid fa-chess-queen fa-2x"></i></div>
+            <div class="box" id="box6"><i class="fa-solid fa-chess-bishop fa-2x"></i></div>
+            <div class="box" id="box7"><i class="fa-solid fa-chess-knight fa-2x"></i></div>
+            <div class="box" id="box8"><i class="fa-solid fa-chess-rook fa-2x"></i></div>
+        </div>
+
+        <div class="row2">
+            <div class="box1" id="box1"><i class="fa-solid fa-chess-pawn fa-2x"></i></div>
+            <div class="box1" id="box1"><i class="fa-solid fa-chess-pawn fa-2x"></i></div>
+            <div class="box1" id="box1"><i class="fa-solid fa-chess-pawn fa-2x"></i></div>
+            <div class="box1" id="box1"><i class="fa-solid fa-chess-pawn fa-2x"></i></div>
+            <div class="box1" id="box1"><i class="fa-solid fa-chess-pawn fa-2x"></i></div>
+            <div class="box1" id="box1"><i class="fa-solid fa-chess-pawn fa-2x"></i></div>
+            <div class="box1" id="Box1"><i class="fa-solid fa-chess-pawn fa-2x"></i></div>
+            <div class="box1" id="box1"><i class="fa-solid fa-chess-pawn fa-2x"></i></div>
+        </div>
+
+        <div class="row3">
+            <div class="box2" id="box2"></div>
+            <div class="box2" id="box2"></div>
+            <div class="box2" id="box2"></div>
+            <div class="box2" id="box2"></div>
+            <div class="box2" id="box2"></div>
+            <div class="box2" id="box2"></div>
+            <div class="box2" id="box2"></div>
+            <div class="box2" id="box2"></div>
+        </div>
+
+        <div class="row4">
+            <div class="box3" id="Box3"></div>
+            <div class="box3" id="box3"></div>
+            <div class="box3" id="box3"></div>
+            <div class="box3" id="box3"></div>
+            <div class="box3" id="box3"></div>
+            <div class="box3" id="box3"></div>
+            <div class="box3" id="box3"></div>
+            <div class="box3" id="box3"></div>
+        </div>
+
+        <div class="row5">
+            <div class="box4" id="box4"></div>
+            <div class="box4" id="box4"></div>
+            <div class="box4" id="box4"></div>
+            <div class="box4" id="box4"></div>
+            <div class="box4" id="box4"></div>
+            <div class="box4" id="box4"></div>
+            <div class="box4" id="box4"></div>
+            <div class="box4" id="box4"></div>
+        </div>
+
+        <div class="row6">
+            <div class="box5" id="box5"></div>
+            <div class="box5" id="box5"></div>
+            <div class="box5" id="box5"></div>
+            <div class="box5" id="box5"></div>
+            <div class="box5" id="box5"></div>
+            <div class="box5" id="box5"></div>
+            <div class="box5" id="box5"></div>
+            <div class="box5" id="box5"></div>
+        </div>
+
+        <div class="row7">
+            <div class="box6" id="box6"><i class="fa-solid fa-chess-rook fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box6" id="box6"><i class="fa-solid fa-chess-pawn fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box6" id="box6"><i class="fa-solid fa-chess-pawn fa-2x" style="color:rgb(187, 1, 1);"></i></div>
+            <div class="box6" id="box6"><i class="fa-solid fa-chess-pawn fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box6" id="box6"><i class="fa-solid fa-chess-pawn fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box6" id="box6"><i class="fa-solid fa-chess-pawn fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box6" id="box6"><i class="fa-solid fa-chess-pawn fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box6" id="box6"><i class="fa-solid fa-chess-pawn fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+        </div>
+
+        <div class="row8">
+            <div class="box7" id="box7"><i class="fa-solid fa-chess-rook fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box7" id="box7"><i class="fa-solid fa-chess-knight fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box7" id="box7"><i class="fa-solid fa-chess-bishop fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box7" id="box7"><i class="fa-solid fa-chess-king fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box7" id="box7"><i class="fa-solid fa-chess-queen fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box7" id="box7"><i class="fa-solid fa-chess-bishop fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box7" id="box7"><i class="fa-solid fa-chess-knight fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+            <div class="box7" id="box7"><i class="fa-solid fa-chess-rook fa-2x" style="color: rgb(187, 1, 1);"></i></div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/d3330e149f.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
